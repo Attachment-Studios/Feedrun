@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+* {
+	font-family: 'Happy Monkey';
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	cursor: default;
+}
+
+#body {
+	padding: 10px;
+	background-image: linear-gradient(to bottom, #66a0ff, #00c0ff, #00dbff, #00f0dc, #33ffa0);
+	height: 100%;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 128px;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 64px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+}
+
+button {
+	padding: 10px;
+	background-image: linear-gradient(to bottom, #66a0ff, #00c0ff, #00dbff, #00f0dc, #33ffa0);
+	border: 3px solid black;
+	cursor: pointer;
+}
+
+button:hover {
+	background-image: linear-gradient(to bottom, #33ffa0, #00f0dc, #00dbff, #00c0ff, #66a0ff);
+}
+
